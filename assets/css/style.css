@@ -7,10 +7,10 @@ header {
   margin: auto;
 }
 
-section .container {
+.container {
 width: 800px;
-height: 400px;
-float: left;
+height: auto;
+margin: auto;
 background-color: red;
 
 
