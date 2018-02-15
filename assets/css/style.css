@@ -45,6 +45,11 @@ footer {
   color: deeppink;
   font-size: 200px;
 }
+.description p {
+  color: deeppink;
+  text-align: center;
+  font-size: 18px;
+}
 footer {
   float: left;
   width: 100%;
