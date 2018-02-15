@@ -11,6 +11,12 @@ header {
   height: 1200px;
   background-color: orange;
 }
+#placeholder h1 {
+  font-size: 70px;
+  padding-top: 150px;
+  text-align: center;
+}
+
 footer {
   width: 100%;
   height: 500px;
