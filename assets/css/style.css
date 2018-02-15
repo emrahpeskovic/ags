@@ -29,12 +29,24 @@ footer {
 #Overskrift_footer{
 text-align: center;
 font-family: 'Source Sans Pro';
-font-size: 40px;
+font-size: 30px;
+font-weight: 900;
 padding-top:70px;
+color: white;
+
 }
 #tekstfooter{
 text-align: center;
 font-family: 'Source Sans Pro';
 font-weight: lighter;
-font-size: 20px;
+font-size: 15px;
+color: white;
+padding-top: 10px;
+}
+#kontakt_information{
+text-align: center;
+font-family:'Source Sans Pro';
+font-weight: lighter;
+font-size: 15px;
+color: white;
 }
