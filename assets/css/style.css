@@ -10,6 +10,11 @@ header {
   height: 1200px;
   background-color: orange;
 }
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+}
 .description {
   width: 100%;
   height: 600px;
