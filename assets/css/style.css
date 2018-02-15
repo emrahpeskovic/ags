@@ -16,8 +16,14 @@ header {
   color: red;
 }
 #placeholder h1 {
+color: white;
+font-size: 20px;
+}
+
+#placeholder h2 {
+  color: white;
   font-size: 70px;
-  padding-top: 150px;
+  padding-top: 250px;
   text-align: center;
 }
 
