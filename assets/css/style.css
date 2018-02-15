@@ -7,13 +7,11 @@ header {
   margin: auto;
 }
 
-section .container {
+.container {
 width: 800px;
 height: 400px;
 float: left;
 background-color: red;
-
-
 }
 #placeholder {
   width: 100%;
