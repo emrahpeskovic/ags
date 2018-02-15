@@ -18,7 +18,10 @@ header {
 }
 #placeholder h1 {
   color: white;
-  font-size: 20px;
+  font
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 15px;
 }
 #placeholder h2 {
   color: white;
