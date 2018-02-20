@@ -8,10 +8,9 @@ header {
 }
 
 .container {
-width: 800px;
-height: auto;
-margin: auto;
-background-color: red;
+  width: 100%;
+  background-color: #272727;
+  margin: auto;
 }
 #placeholder {
   width: 100%;
