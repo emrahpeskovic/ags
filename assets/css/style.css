@@ -12,29 +12,6 @@ body {
   background-color: #272727;
   margin: auto;
 }
-header h2 {
-  color: gray;
-  font-size: 30px;
-  margin: 0px;
-  padding: 10px;
-}
-header h3 {
-  color: white;
-  font-size: 50px;
-  text-align: center;
-  margin: 30px 0px 0px 0px;
-}
-#promovideo:after {
-  height: 100%;
-  width: 100%;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #000;
-  opacity: 0.3;
-}
 #placeholderimg_left {
   float: left;
   width: 35%;
@@ -144,4 +121,35 @@ footer a:hover {
 }
 video {
   display: block;
+}
+.vidcontainer { position:relative; }
+.vidcontainer video {
+    position:relative;
+    z-index:0;
+}
+.vidoverlay {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 280px 0px 0px 0px;
+}
+.vidoverlay h1 {
+  color: #f6f6f6;
+  margin: 50px;
+  padding: 10px;
+  font-size: 94px;
+}
+.vidoverlay a:link, a:active, a:visited {
+  color: #9c9c9c;
+  font-size: 66px;
+  text-decoration: none;
+}
+.vidoverlay a:hover {
+  color: #9c9c9c;
+  text-decoration: none;
 }
