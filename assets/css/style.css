@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: auto;
 }
 #placeholder {
   width: 100%;
@@ -36,11 +36,11 @@ body {
   height: 700px;
   background-color: yellow;
 }
-#placeholderimg_right {
-float: right;
-width: 35%;
-height: 700px;
-background-color: deeppink;
+#placeholderbigimg_right {
+  float: right;
+  width: 35%;
+  height: 700px;
+  background-color: deeppink;
 }
 footer {
   background-color: #272727;
@@ -60,36 +60,19 @@ footer p {
   font-size: 18px;
 }
 footer a:link, a:active, a:visited {
-  color: grey;
-  text-decoration: none;
-}
-footer a:hover {
   color: red;
   text-decoration: none;
 }
-#tekstfooter {
-  margin: auto;
-  font-family: 'Source Sans Pro';
-  font-weight: lighter;
-  font-size: 20px;
-  color: white;
-  line-height: 25px;
+footer a:hover {
+  color: deeppink;
+  text-decoration: none;
 }
-#kontakt_information {
-  font-family:'Source Sans Pro';
-  font-weight: lighter;
-  font-size: 20px;
-  color: white;
-  line-height: 25px;
-  padding-top: 0px;
-  padding-bottom: 40px;
-}
-#socialmedia{
-width: 100%;
-height: 100px;
-background-color: #111;
-margin-top: 60px;
-text-align: center;
+#socialmedia {
+  background-color: #111;
+  height: 100px;
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
 }
 #socialmedia a {
   color: white;
@@ -97,14 +80,11 @@ text-align: center;
 #socialmedia a:hover {
   color: yellow;
 }
-
-.fa{
-padding-top:30px;
-font-size: 100px;
-width: 80px;
-text-align: center;
-text-decoration: none;
-color: white;
+.fa {
+  color: #b9adad;
+  margin-top: 45px;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
 }
 .textbox {
   background-color: #353535;
