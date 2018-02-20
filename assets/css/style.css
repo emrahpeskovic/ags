@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: auto;
 }
 #placeholder {
   width: 100%;
@@ -12,6 +12,20 @@ body {
   background-color: #272727;
   margin: auto;
 }
+
+header h2 {
+  color: red;
+  font-size: 30px;
+  margin-left: 1%;
+}
+
+header .citat {
+  color: white;
+  font-size: 50px;
+  margin-left: 32%;
+  margin-top: 20%;
+}
+
 #placeholderimg_left {
   float: left;
   width: 35%;
@@ -30,59 +44,61 @@ body {
   height: 500px;
   background-color: green;
 }
-.description {
+#placeholderbigimg_left {
   float: left;
+  width: 65%;
+  height: 700px;
+  background-color: yellow;
+}
+#placeholderbigimg_right {
+  float: right;
+  width: 35%;
+  height: 700px;
+  background-color: deeppink;
+}
+footer {
+  background-color: #272727;
+  clear: both;
+  color: #b9adad;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
   width: 100%;
-  background-color: #2B2929;
 }
-.description h1 {
-  text-align: center;
-  color: deeppink;
-  font-size: 200px;
+footer h1 {
+  font-size: 36px;
+  margin: 0px 0px 10px 0px;
 }
-.description p {
-  color: deeppink;
-  text-align: center;
+footer p {
   font-size: 18px;
 }
-#Overskrift_footer {
-  font-family: 'Source Sans Pro';
-  font-size: 50px;
-  font-weight: bold;
-  padding-top:10px;
+footer a:link, a:active, a:visited {
+  color: red;
+  text-decoration: none;
+}
+footer a:hover {
+  color: deeppink;
+  text-decoration: none;
+}
+#socialmedia {
+  background-color: #111;
+  height: 100px;
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+#socialmedia a {
   color: white;
 }
-#tekstfooter {
-  margin: auto;
-  font-family: 'Source Sans Pro';
-  font-weight: lighter;
-  font-size: 20px;
-  color: white;
-  line-height: 25px;
+#socialmedia a:hover {
+  color: yellow;
 }
-#kontakt_information {
-  font-family:'Source Sans Pro';
-  font-weight: lighter;
-  font-size: 20px;
-  color: white;
-  line-height: 25px;
-  padding-top: 0px;
-  padding-bottom: 40px;
-}
-#socialmedia{
-width: 100%;
-height: 100px;
-background-color: #111;
-margin-top: 60px;
-text-align: center;
-}
-.fa{
-padding-top:30px;
-font-size: 100px;
-width: 80px;
-text-align: center;
-text-decoration: none;
-color: white;
+.fa {
+  color: #b9adad;
+  margin-top: 45px;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
 }
 .textbox {
   background-color: #353535;
@@ -110,30 +126,5 @@ color: white;
 }
 .textbox a:hover {
   color: green;
-  text-decoration: none;
-}
-footer {
-  background-color: #272727;
-  clear: both;
-  color: #b9adad;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: auto;
-  text-align: center;
-  padding: 50px 0px 0px 0px;
-  width: 100%;
-}
-footer h1 {
-  font-size: 36px;
-  margin: 0px 0px 10px 0px;
-}
-footer p {
-  font-size: 18px;
-}
-footer a:link, a:active, a:visited {
-  color: grey;
-  text-decoration: none;
-}
-footer a:hover {
-  color: red;
   text-decoration: none;
 }
