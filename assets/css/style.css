@@ -19,13 +19,6 @@ header {
   margin: auto;
 }
 
-footer {
-  width: 100%;
-  height: 500px;
-  background-color: blue;
-  margin: auto;
-  text-align: center;
-}
 .description {
   float: left;
   width: 100%;
@@ -42,12 +35,6 @@ footer {
   color: deeppink;
   text-align: center;
   font-size: 18px;
-}
-footer {
-  float: left;
-  width: 100%;
-  height: 400px;
-  background-color: #403E3E;
 }
 #Overskrift_footer {
   font-family: 'Source Sans Pro';
@@ -73,11 +60,12 @@ footer {
   padding-top: 0px;
   padding-bottom: 40px;
 }
-#social{
+#socialmedia{
 width: 100%;
-height: 80px;
-background-color: #1D1D1D;
-float: left;
+height: 100px;
+background-color: #111;
+margin-top: 60px;
+text-align: center;
 }
 .fa{
 padding-top:30px;
@@ -86,4 +74,29 @@ width: 80px;
 text-align: center;
 text-decoration: none;
 color: white;
+}
+footer {
+  background-color: #272727;
+  clear: both;
+  color: #b9adad;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  width: 100%;
+}
+footer h1 {
+  font-size: 36px;
+  margin: 0px 0px 10px 0px;
+}
+footer p {
+  font-size: 18px;
+}
+footer a:link, a:active, a:visited {
+  color: grey;
+  text-decoration: none;
+}
+footer a:hover {
+  color: red;
+  text-decoration: none;
 }
