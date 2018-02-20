@@ -14,9 +14,9 @@ body {
 }
 
 header h2 {
-  color: red;
+  color: gray;
   font-size: 30px;
-  margin-left: 1%;
+  margin-left: 35%;
 }
 
 header .citat {
