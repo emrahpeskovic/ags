@@ -87,6 +87,14 @@ color: white;
   margin: 0px;
   padding: 5px 170px 30px 170px;
 }
+.textbox a:link, a:active, a:visited {
+  color: orange;
+  text-decoration: none;
+}
+.textbox a:hover {
+  color: green;
+  text-decoration: none;
+}
 footer {
   background-color: #272727;
   clear: both;
