@@ -1,16 +1,5 @@
 body {
   margin: 0px;
-  padding: 0;
-}
-header {
-  width: 100%;
-  margin: auto;
-}
-
-.container {
-  width: 100%;
-  background-color: #272727;
-  margin: auto;
 }
 #placeholder {
   width: 100%;
@@ -18,7 +7,11 @@ header {
   background-color: orange;
   margin: auto;
 }
-
+.container {
+  width: 100%;
+  background-color: #272727;
+  margin: auto;
+}
 .description {
   float: left;
   width: 100%;
@@ -74,6 +67,26 @@ width: 80px;
 text-align: center;
 text-decoration: none;
 color: white;
+}
+.textbox {
+  background-color: #353535;
+  clear: both;
+  color: #b9adad;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  margin: auto;
+  padding: 50px 0px 50px 0px;
+  width: 1050px;
+}
+.textbox h1 {
+  font-size: 34px;
+  margin: 0px;
+  padding: 30px 90px 0px 170px;
+}
+.textbox p {
+  margin: 0px;
+  padding: 5px 170px 30px 170px;
 }
 footer {
   background-color: #272727;
