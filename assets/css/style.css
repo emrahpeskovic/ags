@@ -12,6 +12,24 @@ body {
   background-color: #272727;
   margin: auto;
 }
+#placeholderimg_left {
+  float: left;
+  width: 35%;
+  height: 500px;
+  background-color: red;
+}
+#placeholderimg_center {
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-color: blue;
+}
+#placeholderimg_right {
+  float: right;
+  width: 35%;
+  height: 500px;
+  background-color: green;
+}
 .description {
   float: left;
   width: 100%;
