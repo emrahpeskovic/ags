@@ -15,7 +15,17 @@ body {
 
 header h2 {
   color: red;
+  font-size: 30px;
+  margin-left: 1%;
 }
+
+header .citat {
+  color: red;
+  font-size: 50px;
+  margin-left: 32%;
+  margin-top: 20%;
+}
+
 #placeholderimg_left {
   float: left;
   width: 35%;
