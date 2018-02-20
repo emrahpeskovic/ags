@@ -12,6 +12,10 @@ body {
   background-color: #272727;
   margin: auto;
 }
+
+header h2 {
+  color: red;
+}
 #placeholderimg_left {
   float: left;
   width: 35%;
