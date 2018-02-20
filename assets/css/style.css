@@ -24,6 +24,17 @@ header h3 {
   text-align: center;
   margin: 30px 0px 0px 0px;
 }
+#promovideo:after {
+  height: 100%;
+  width: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.3;
+}
 #placeholderimg_left {
   float: left;
   width: 35%;
@@ -77,11 +88,11 @@ footer p {
   font-size: 18px;
 }
 footer a:link, a:active, a:visited {
-  color: red;
+  color: #f1f1f1;
   text-decoration: none;
 }
 footer a:hover {
-  color: deeppink;
+  color: #2482b6;
   text-decoration: none;
 }
 #socialmedia {
@@ -95,7 +106,7 @@ footer a:hover {
   color: white;
 }
 #socialmedia a:hover {
-  color: yellow;
+  color: #2482b6;
 }
 .fa {
   color: #b9adad;
@@ -124,11 +135,11 @@ footer a:hover {
   padding: 5px 170px 30px 170px;
 }
 .textbox a:link, a:active, a:visited {
-  color: orange;
+  color: #f1f1f1;
   text-decoration: none;
 }
 .textbox a:hover {
-  color: green;
+  color: #2482b6;
   text-decoration: none;
 }
 video {
