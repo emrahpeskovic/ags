@@ -113,6 +113,13 @@ background-color: #111;
 margin-top: 60px;
 text-align: center;
 }
+#socialmedia a {
+  color: white;
+}
+#socialmedia a:hover {
+  color: yellow; 
+}
+
 .fa{
 padding-top:30px;
 font-size: 100px;
